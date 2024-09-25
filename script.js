@@ -17,8 +17,6 @@ function calculate() {
 }
 const planets = document.querySelectorAll('.planet');
 
-const planets = document.querySelectorAll('.planet');
-
 planets.forEach(planet => {
     const speed = parseFloat(planet.getAttribute('data-speed'));
     let angle = 0;
